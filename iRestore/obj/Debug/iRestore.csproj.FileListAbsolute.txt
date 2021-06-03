@@ -1,0 +1,10 @@
+/home/hellisabove/iRestore/iRestore/bin/Debug/iRestore.exe.config
+/home/hellisabove/iRestore/iRestore/bin/Debug/iRestore.exe
+/home/hellisabove/iRestore/iRestore/bin/Debug/iRestore.pdb
+/home/hellisabove/iRestore/iRestore/obj/Debug/iRestore.csprojAssemblyReference.cache
+/home/hellisabove/iRestore/iRestore/obj/Debug/iRestore.FormMain.resources
+/home/hellisabove/iRestore/iRestore/obj/Debug/iRestore.Properties.Resources.resources
+/home/hellisabove/iRestore/iRestore/obj/Debug/iRestore.csproj.GenerateResource.cache
+/home/hellisabove/iRestore/iRestore/obj/Debug/iRestore.csproj.CoreCompileInputs.cache
+/home/hellisabove/iRestore/iRestore/obj/Debug/iRestore.exe
+/home/hellisabove/iRestore/iRestore/obj/Debug/iRestore.pdb
