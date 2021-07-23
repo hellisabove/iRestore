@@ -25,3 +25,5 @@ v1.0.0
 # This uses adam's version of futurerestore
 
 It can be found at https://github.com/m1stadev/futurerestore
+
+# This Work is protected under the Authoral Integrity License (AIL): https://github.com/heavyelement/ail/
