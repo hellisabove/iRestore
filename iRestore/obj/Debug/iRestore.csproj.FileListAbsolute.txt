@@ -8,3 +8,13 @@
 /home/hellisabove/iRestore/iRestore/obj/Debug/iRestore.csproj.CoreCompileInputs.cache
 /home/hellisabove/iRestore/iRestore/obj/Debug/iRestore.exe
 /home/hellisabove/iRestore/iRestore/obj/Debug/iRestore.pdb
+/home/halphix/iRestore/iRestore/bin/Debug/iRestore.exe.config
+/home/halphix/iRestore/iRestore/bin/Debug/iRestore.exe
+/home/halphix/iRestore/iRestore/bin/Debug/iRestore.pdb
+/home/halphix/iRestore/iRestore/obj/Debug/iRestore.csprojAssemblyReference.cache
+/home/halphix/iRestore/iRestore/obj/Debug/iRestore.FormMain.resources
+/home/halphix/iRestore/iRestore/obj/Debug/iRestore.Properties.Resources.resources
+/home/halphix/iRestore/iRestore/obj/Debug/iRestore.csproj.GenerateResource.cache
+/home/halphix/iRestore/iRestore/obj/Debug/iRestore.csproj.CoreCompileInputs.cache
+/home/halphix/iRestore/iRestore/obj/Debug/iRestore.exe
+/home/halphix/iRestore/iRestore/obj/Debug/iRestore.pdb

@@ -1,0 +1,8 @@
+/home/halphix/iRestore/iRestore/obj/Debug/.NETFramework,Version=v4.6.1.AssemblyAttribute.cs
+/home/halphix/iRestore/iRestore/obj/Debug/iRestore.FormMain.resources
+/home/halphix/iRestore/iRestore/obj/Debug/iRestore.Properties.Resources.resources
+/home/halphix/iRestore/iRestore/bin/Debug/iRestore.exe.config
+/home/halphix/iRestore/iRestore/bin/Debug/iRestore.pdb
+/home/halphix/iRestore/iRestore/bin/Debug/iRestore.exe
+/home/halphix/iRestore/iRestore/obj/Debug/iRestore.exe
+/home/halphix/iRestore/iRestore/obj/Debug/iRestore.pdb

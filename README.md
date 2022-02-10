@@ -8,7 +8,7 @@ To use, download iRestore.exe from this repository.
 # Changelog
 
 v1.1.3
-- Downloads adam's futurerestore version
+- Uses MarijuanARM's futurerestore version
 
 v1.1.2
 - Automatically checks version of latest futurerestore and installed version to decide whether to update or not
@@ -22,8 +22,6 @@ v1.1.0
 v1.0.0
 - Initial release
 
-# This uses adam's version of futurerestore
+# This uses MarijuanARM's version of futurerestore
 
 It can be found at https://github.com/m1stadev/futurerestore
-
-# This Work is protected under the Authoral Integrity License (AIL): https://github.com/heavyelement/ail/

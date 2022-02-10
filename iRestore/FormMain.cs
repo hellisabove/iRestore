@@ -45,9 +45,9 @@ namespace iRestore
                     return;
                 }
 
-                if (File.Exists(Application.UserAppDataPath + "\\futurerestore.exe"))
+                if (File.Exists(Application.UserAppDataPath + "\\futurerestore-v194.exe"))
                 {
-                    using (var stream = File.OpenRead(Application.UserAppDataPath + "\\futurerestore.exe"))
+                    using (var stream = File.OpenRead(Application.UserAppDataPath + "\\futurerestore-v194.exe"))
                     {
                         if (BitConverter.ToString(MD5.Create().ComputeHash(stream)).Replace("-", "") != hashsum.Replace(Environment.NewLine, ""))
                         {
@@ -93,23 +93,23 @@ namespace iRestore
                     info.Close();
                     try
                     {
-                        ZipFile.ExtractToDirectory(Application.UserAppDataPath + "\\futurerestore.zip", Application.UserAppDataPath + "\\tmp");
-                        if (File.Exists(Application.UserAppDataPath + "\\futurerestore.exe")) File.Delete(Application.UserAppDataPath + "\\futurerestore.exe");
-                        File.Move(Application.UserAppDataPath + "\\tmp\\futurerestore.exe", Application.UserAppDataPath + "\\futurerestore.exe");
+                        ZipFile.ExtractToDirectory(Application.UserAppDataPath + "\\futurerestore-v194.zip", Application.UserAppDataPath + "\\tmp");
+                        if (File.Exists(Application.UserAppDataPath + "\\futurerestore-v194.exe")) File.Delete(Application.UserAppDataPath + "\\futurerestore-v194.exe");
+                        File.Move(Application.UserAppDataPath + "\\tmp\\futurerestore-v194.exe", Application.UserAppDataPath + "\\futurerestore-v194.exe");
                     }
                     catch (Exception ex)
                     {
                         MessageBox.Show($"Failed to extract futurerestore.\nError: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     }
 
-                    File.Delete(Application.UserAppDataPath + "\\futurerestore.zip");
+                    File.Delete(Application.UserAppDataPath + "\\futurerestore-v194.zip");
                     Directory.Delete(Application.UserAppDataPath + "\\tmp", true);
                 };
 
                 try
                 {
-                    if (File.Exists(Application.UserAppDataPath + "\\futurerestore.zip")) File.Delete(Application.UserAppDataPath + "\\futurerestore.zip");
-                    client.DownloadFileAsync(new Uri(version), Application.UserAppDataPath + "\\futurerestore.zip");
+                    if (File.Exists(Application.UserAppDataPath + "\\futurerestore-v194.zip")) File.Delete(Application.UserAppDataPath + "\\futurerestore-v194.zip");
+                    client.DownloadFileAsync(new Uri(version), Application.UserAppDataPath + "\\futurerestore-v194.zip");
                 }
                 catch (Exception ex)
                 {
@@ -200,7 +200,7 @@ namespace iRestore
                 {
                     StartInfo = new ProcessStartInfo
                     {
-                        FileName = Application.UserAppDataPath + "\\futurerestore.exe",
+                        FileName = Application.UserAppDataPath + "\\futurerestore-v194.exe",
                         Arguments = $"-t \"{blob}\" " +
                             $"{(CheckSEP.Checked ? "--latest-sep" : $"-s \"{sep}\" -m \"{bm}\"")} " +
                             $"{(CheckNoBaseband.Checked ? "--no-baseband" : (CheckBaseband.Checked ? "--latest-baseband" : $"-b \"{baseband}\" -p \"{bm}\""))} " +
@@ -265,7 +265,7 @@ namespace iRestore
             {
                 StartInfo = new ProcessStartInfo
                 {
-                    FileName = Application.UserAppDataPath + "\\futurerestore.exe",
+                    FileName = Application.UserAppDataPath + "\\futurerestore-v194.exe",
                     Arguments = "--exit-recovery",
                     UseShellExecute = false,
                     RedirectStandardOutput = true,
